@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:red;
+}
+
+.e{
+    color:red;
+}
+#title{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    text-align:center;
+   
+}
+
+.titleName{
+    font-size:180px;
+    color:yellow;
+    padding:30px;
+}
+.titleImage{
+    max-height:300px;
+    max-width:300px;
+    height:100%;
+    width:100%;
+    
+}
+#main-container{
+
+}
+.boardImage{
+    height:100%;
+    width:100%;
+    justify-content: center;
+}
+
+@media (max-width: 1200px) {
+    .titleName{
+        font-size:80px;
+        
+    }
+    #title{
+        flex-direction: column;
+    }
+    .titleImage{
+        margin:auto;
+    }
+
+}
+.game{
+    max-width:320px;
+    max-height:320px;
+    
+    margin:auto;
+    margin-top:100px;
+}
+.row{
+    height:100px;
+    
+}
+
+.col{
+    height:100px;
+    width: 100px;
+    float:left;
+    font-size:100px;
+    text-align:center;
+    line-height:100px;
+}
+.col:hover{
+    background-color: lightgrey;
+}
+.border-b{
+    border-bottom: 10px solid white;
+}
+
+.border-r{
+    border-right: 10px solid white
+}
+
+.winner{
+    color: gold;
+}
